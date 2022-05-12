@@ -10,7 +10,7 @@ import (
 
 	"github.com/github/smimesign/signature"
 	"github.com/pkg/errors"
-	"github.com/sigstore/cosign/cmd/cosign/cli/fulcio/fulcioroots"
+	"github.com/sigstore/sigstore/pkg/fulcioroots"
 	"github.com/wlynch/smimecosign/git"
 )
 

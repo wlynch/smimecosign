@@ -11,8 +11,8 @@ import (
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/object"
 	"github.com/pkg/errors"
-	"github.com/sigstore/cosign/cmd/cosign/cli/fulcio/fulcioroots"
 	"github.com/sigstore/rekor/pkg/generated/models"
+	"github.com/sigstore/sigstore/pkg/fulcioroots"
 	"github.com/wlynch/smimecosign/fulcio"
 	"github.com/wlynch/smimecosign/rekor"
 )

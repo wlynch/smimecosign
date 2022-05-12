@@ -2,15 +2,19 @@ module github.com/wlynch/smimecosign
 
 go 1.18
 
+replace github.com/sigstore/sigstore => github.com/imjasonh/sigstore v1.1.1-0.20220511191944-e015617260f1
+
 require (
 	github.com/github/smimesign v0.2.0
 	github.com/go-git/go-git/v5 v5.4.2
+	github.com/go-openapi/runtime v0.24.0
 	github.com/go-openapi/strfmt v0.21.2
 	github.com/go-openapi/swag v0.21.1
 	github.com/pborman/getopt/v2 v2.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/sigstore/cosign v1.8.0
 	github.com/sigstore/rekor v0.4.1-0.20220114213500-23f583409af3
+	github.com/sigstore/sigstore v1.2.1-0.20220424143412-3d41663116d5
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
 )
 
@@ -27,7 +31,7 @@ require (
 	cloud.google.com/go/compute v1.6.0 // indirect
 	cloud.google.com/go/iam v0.3.0 // indirect
 	cloud.google.com/go/storage v1.22.0 // indirect
-	github.com/Azure/azure-sdk-for-go v63.3.0+incompatible // indirect
+	github.com/Azure/azure-sdk-for-go v64.0.0+incompatible // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest v0.11.27 // indirect
 	github.com/Azure/go-autorest/autorest/adal v0.9.18 // indirect
@@ -98,7 +102,6 @@ require (
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.19.6 // indirect
 	github.com/go-openapi/loads v0.21.1 // indirect
-	github.com/go-openapi/runtime v0.24.0 // indirect
 	github.com/go-openapi/spec v0.20.4 // indirect
 	github.com/go-openapi/validate v0.21.0 // indirect
 	github.com/go-piv/piv-go v1.9.0 // indirect
@@ -173,7 +176,6 @@ require (
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/shibumi/go-pathspec v1.3.0 // indirect
 	github.com/sigstore/fulcio v0.1.2-0.20220114150912-86a2036f9bc7 // indirect
-	github.com/sigstore/sigstore v1.2.1-0.20220424143412-3d41663116d5 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
