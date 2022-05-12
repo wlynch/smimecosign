@@ -1,3 +1,5 @@
+# THIS PROJECT HAS MOVED! See https://github.com/sigstore/gitsign 🎉
+
 # smimecosign
 
 Keyless Git signing with cosign!
